@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: thewitness
+  title: The Witness
+  author: bmo22xd
+  description: '...and a dream.
+
+
+    Complete this mysterious puzzle inspired by "The Witness" game.
+
+
+    My first module and practically my first programming project as well, so expect
+    the code to be DISGUSTING. It works, though ;P
+
+    I''ll add more features and fix bugs as soon as I can :)
+
+
+    Manual included in the mod file, I hope it gets published on ktane.timwi.de someday
+    :3
+
+
+    moduleID: thewitness'
+  version: 1.0
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: ec2d76c19e6374c53951b10262f60676, type: 3}
