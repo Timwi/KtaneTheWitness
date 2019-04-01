@@ -506,7 +506,6 @@ GameObject:
   - component: {fileID: 114137071119665274}
   - component: {fileID: 23613065535069556}
   - component: {fileID: 114671688427174984}
-  - component: {fileID: 114912204549729410}
   m_Layer: 0
   m_Name: theWitness
   m_TagString: Untagged
@@ -6328,20 +6327,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114912204549729410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1393663968965296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1427759265, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OverrideEffect: 13
-  AudioClip: {fileID: 8300000, guid: caa9aa9bc987b4e9aa34614b55785d80, type: 3}
-  AdditionalVariants: []
 --- !u!114 &114912383532485126
 MonoBehaviour:
   m_ObjectHideFlags: 1

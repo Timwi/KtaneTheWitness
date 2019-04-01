@@ -282,7 +282,7 @@ public class theWitness : MonoBehaviour {
 			Debug.LogFormat ("[The Witness #{0}] Expected line: {1} or {2}, input line: {3}.", _moduleId, correctLine, alternativeLine, currentLine);
 			Debug.LogFormat ("[The Witness #{0}] Module defused. Well done :)", _moduleId);
 
-			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, Module.transform);
+			Audio.PlaySoundAtTransform ("disarmed", Module.transform);
 			wireGray.SetActive (false);
 			wireGreen.SetActive (true);
 			Module.HandlePass (); 
@@ -293,7 +293,7 @@ public class theWitness : MonoBehaviour {
 			Debug.LogFormat ("[The Witness #{0}] Expected line: {1} or {2}, input line: {3}.", _moduleId, correctLine, alternativeLine, currentLine);
 			Debug.LogFormat ("[The Witness #{0}] Module defused. Well done :)", _moduleId);
 
-			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, Module.transform);
+			Audio.PlaySoundAtTransform ("disarmed", Module.transform);
 			wireGray.SetActive (false);
 			wireGreen.SetActive (true);
 			Module.HandlePass ();
