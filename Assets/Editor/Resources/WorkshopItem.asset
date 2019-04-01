@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: WorkshopItem
   m_EditorClassIdentifier: 
   WorkshopPublishedFileID: 1699868733
-  Title: 
-  Tags: []
+  Title: '[UNDER DEVELOPMENT] The Witness'
+  Tags:
+  - Regular Module
